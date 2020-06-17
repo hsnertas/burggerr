@@ -1,30 +1,24 @@
 {
-  "name": "movigament",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "handlebars": "^4.7.6",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.1.0",
-    "orm": "^5.0.5"
-  },
-  "devDependencies": {},
+  "description": "In this assignment, you'll create a burger logger with MySQL, Node, Express and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrismora80/Movigament.git"
+    "url": "git+https://github.com/hsnertas/burger.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chrismora80/Movigament/issues"
+    "url": "https://github.com/hsnertas/burger/issues"
   },
-  "homepage": "https://github.com/chrismora80/Movigament#readme"
+  "homepage": "https://github.com/hsnertas/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
 }
